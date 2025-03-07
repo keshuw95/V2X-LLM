@@ -6,26 +6,22 @@
 
 📄 **Reference Paper**: [arXiv:2503.02239](https://arxiv.org/abs/2503.02239)
 
-## Features
-
-- **Scenario Explanation** – Generates narratives for complex traffic conditions.
-- **V2X Data Description** – Provides structured insights into vehicle and infrastructure statuses.
-- **State Prediction** – Forecasts future traffic states based on real-time V2X data.
-- **Navigation Advisory** – Offers optimized routing guidance for enhanced mobility.
-
 ## Architecture
 
-The framework integrates with **V2X data pipelines** and processes inputs such as:
-- **Basic Safety Messages (BSMs)**
-- **Signal Phase and Timing (SPaT) data**
-- **Roadside Unit (RSU) communications**
+The V2X-LLM framework processes **V2X messages** and **CV corridor data**, encodes scenarios, and generates task-specific prompts for LLM-based reasoning. 
 
 <p align="center">
   <img src="figures/v2xllm_arc.png" alt="V2X-LLM Architecture" width="600"/>
 </p>
 
-![image](https://github.com/user-attachments/assets/f3ebd828-eb21-4555-9448-4cc954b215af)
+## Features
 
+V2X-LLM enhances **V2X integration and understanding** by performing the following key tasks:
+
+- **Scenario Explanation** – Generates narratives for complex traffic conditions.
+- **V2X Data Description** – Provides structured insights into vehicle and infrastructure statuses.
+- **State Prediction** – Forecasts future traffic states based on real-time V2X data.
+- **Navigation Advisory** – Offers optimized routing guidance for enhanced mobility.
 
 ## Citation
 
